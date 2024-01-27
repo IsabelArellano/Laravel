@@ -1,18 +1,7 @@
-# IDES's  project files
-.idea
-
-# windows thumbnail cache
-Thumbs.db
-
-# composer vendor dir
 /vendor
-
-# Mac DS_Store Files
-.DS_Store
-
-# Large output files
-build/output/*
-
-# machine-specific configuration files
-.env
-config/dev-env.conf
+/node_modules
+.env: 
+/storage/*.key
+/storage/app/public
+/storage/logs/*
+/bootstrap/cache/*
